@@ -1,0 +1,21 @@
+<ion-menu [content]="mycontent">
+    <ion-content padding>
+        <ion-header>
+            <ion-navbar color="primary">
+                <ion-title>
+                    <ion-img src='../assets/imgs/logo.png'></ion-img>
+                </ion-title>
+            </ion-navbar>
+        </ion-header>
+        <ion-list no-lines>
+                <button ion-item >Home</button>
+                <button ion-item >About</button>
+                <button ion-item >Events</button>
+                <button ion-item>
+                  Close Menu
+                </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+      
+<ion-nav #mycontent [root]="rootPage"></ion-nav>
