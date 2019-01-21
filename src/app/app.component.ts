@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
+import { Platform, NavController, NavParams } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -19,5 +19,6 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
     });
+
   }
 }
